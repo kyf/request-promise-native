@@ -1,6 +1,6 @@
 {
-  "name": "request-promise-native",
-  "version": "1.0.5",
+  "name": "@kyf456/request-promise-native",
+  "version": "2.0.0",
   "description": "The simplified HTTP request client 'request' with Promise support. Powered by native ES6 promises.",
   "keywords": [
     "xhr",
@@ -14,19 +14,15 @@
   ],
   "main": "./lib/rp.js",
   "scripts": {
-    "test": "./node_modules/.bin/gulp ci",
-    "test-publish": "./node_modules/.bin/gulp ci-no-cov",
-    "publish-please": "publish-please",
-    "prepublish": "publish-please guard"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/request/request-promise-native.git"
+    "url": "git+https://github.com/kyf/request-promise-native.git"
   },
   "author": "Nicolai Kamenzky (https://github.com/analog-nico)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/request/request-promise-native/issues"
+    "url": "https://github.com/kyf/request-promise-native/issues"
   },
   "homepage": "https://github.com/request/request-promise-native#readme",
   "engines": {
@@ -38,7 +34,6 @@
     "tough-cookie": ">=2.3.3"
   },
   "peerDependencies": {
-    "request": "^2.34"
   },
   "devDependencies": {
     "body-parser": "~1.15.2",
